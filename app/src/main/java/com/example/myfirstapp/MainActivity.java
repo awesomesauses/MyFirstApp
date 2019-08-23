@@ -33,8 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 int num3 = Integer.parseInt(thridNumbEditText.getText().toString());
 
                 int result = num1 + num2 + num3;
+                resultTextView.setText(result + "");
+
                 //2905
-//
             }
         });
     }
