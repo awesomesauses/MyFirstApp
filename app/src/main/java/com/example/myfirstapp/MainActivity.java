@@ -1,5 +1,6 @@
 package com.example.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -87,6 +88,18 @@ public class MainActivity extends AppCompatActivity {
 
                 int result = num1 * num2 * num3;
                 resultTextView.setText(result + "");        //Output value to result view
+
+            }
+        });
+
+        secActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                /*Create intent and establish what is intent
+                 in this case to go to second activity */
+                Intent startIntent = new Intent(getApplicationContext(), SecondActivity.class);
+                //Show how to pass information
+                startActivity(startIntent);
 
             }
         });
