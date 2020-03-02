@@ -19,8 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Button subBtn = (Button) findViewById(R.id.subBtn);
         Button multBtn = (Button) findViewById(R.id.multBtn);
 
-        Button secActivity = (Button) findViewById(R.id.secActivity);
-        Button googleActivity = (Button) findViewById(R.id.googleActivity);
+        Button secActivity = (Button) findViewById(R.id.secondActivityBtn);
+        //Button googleActivity = (Button) findViewById(R.id.googleActivity);
+        //TODO: Launch google activity
 
 
         addBtn.setOnClickListener(new View.OnClickListener() {      //Add button function

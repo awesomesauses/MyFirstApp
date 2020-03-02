@@ -1,6 +1,16 @@
 <resources>
-    <string name="app_name">My First App</string>
+    //All around use
+    <string name="Input">Input</string>
+    <string name="Result">Result</string>
+    <string name="Enter_Number">Enter Number</string>
+
+    //Main activity use
+    <string name="Add">Add</string>
+    <string name="Multiply">Multiply</string>
+    <string name="Subtract">Subtract</string>
+    <string name="Second_Activity">Second Activity</string>
+
+    //Second activity use
     <string name="kg_lb">Kg - lb</string>
     <string name="lb_kg">lb - Kg</string>
-
 </resources>
